@@ -2,7 +2,7 @@
 
 An animated Japanese food landing page built with vanilla HTML, CSS, JavaScript, Vite, and AOS. The experience combines a bold sushi-inspired visual system with a responsive food catalogue, category filters, Indian pricing, and item detail popups.
 
-![SHUSHI RAMEN hero and catalogue](.github/images/screenshot-home.png)
+![SHUSHI RAMEN hero and catalogue](.github/images/img_main.png)
 
 ## Highlights
 
@@ -28,25 +28,25 @@ An animated Japanese food landing page built with vanilla HTML, CSS, JavaScript,
 
 The full-width opening section establishes the visual direction with the Japanese food hero, primary actions, social proof, and animated composition.
 
-![Desktop hero](.github/images/screenshot-home.png)
+![Desktop hero](.github/images/img_main.png)
 
 ### Popular food filters
 
 The catalogue lets visitors switch between food categories while keeping the original animated visual language intact.
 
-![Popular food filters](.github/images/screenshot-popular.png)
+![Popular food filters](.github/images/img2.png)
 
 ### Food details
 
 Selecting any catalogue card opens a focused detail view with the selected dish, rating, description, and rupee price.
 
-![Food details](.github/images/screenshot-details.png)
+![Food details](.github/images/img1.png)
 
 ### Responsive mobile layout
 
 The mobile view keeps the same content hierarchy, touch-friendly controls, and responsive spacing for a comfortable small-screen experience.
 
-![Mobile layout](.github/images/screenshot-mobile.png)
+![Mobile layout](.github/images/img3.png)
 
 ## Run Locally
 
