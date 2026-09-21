@@ -1,97 +1,89 @@
-# Sushiman - Modern Animated Sushi Order Landing Page
+# SHUSHI RAMEN
 
-![Modern Animated Sushi Order Landing Page](/.github/images/img_main.png "Modern Animated Sushi Order Landing Page")
+An animated Japanese food landing page built with vanilla HTML, CSS, JavaScript, Vite, and AOS. The experience combines a bold sushi-inspired visual system with a responsive food catalogue, category filters, Indian pricing, and item detail popups.
 
-[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://img.shields.io/github/license/sanidhyy/sushi-landing)](https://github.com/sanidhyy/sushi-landing/blob/main/LICENSE.md "GitHub license")
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sanidhyy/sushi-landing/commits/main "Maintenance")
-[![GitHub branches](https://badgen.net/github/branches/sanidhyy/sushi-landing)](https://github.com/sanidhyy/sushi-landing/branches "GitHub branches")
-[![Github commits](https://badgen.net/github/commits/sanidhyy/sushi-landing/main)](https://github.com/sanidhyy/sushi-landing/commits "Github commits")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ace68c76-8f1a-40a1-ae51-638f97d0b9b6/deploy-status)](https://sushi-landing.netlify.app/ "Netlify Status")
-[![GitHub issues](https://img.shields.io/github/issues/sanidhyy/sushi-landing)](https://github.com/sanidhyy/sushi-landing/issues "GitHub issues")
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/sanidhyy/sushi-landing)](https://github.com/sanidhyy/sushi-landing/pulls "GitHub pull requests")
+![SHUSHI RAMEN hero and catalogue](.github/images/screenshot-home.png)
 
-## ⚠️ Before you start
+## Highlights
 
-1. Make sure **Git** and **NodeJS** is installed.
-2. Clone this repository to your local computer.
-3. Open terminal and run `npm install` or `yarn install` in root folder to install necessary packages.
-4. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `yarn dev`.
+- AOS-powered entrance animations across the landing page.
+- Responsive hero, about, trending food, newsletter, and footer sections.
+- Popular Food filters for Sushi, Ramen, Udon, Danggo, and Others.
+- Clickable food cards with image, rating, description, and INR pricing details.
+- Keyboard-accessible cards and dialogs with `Enter`, `Space`, and `Escape` support.
+- Image assets and layout optimized for desktop and mobile browsing.
 
-### :raising_hand: Need Help?
+## Food Catalogue
 
-If you run into issues during installation or setup:
+| Category | Items | Price range |
+| --- | --- | --- |
+| Sushi | Chezu Sushi, Original Sushi | ₹1,499 - ₹1,699 |
+| Ramen | Ramen Legendo | ₹1,199 |
+| Udon | Udon Haru | ₹999 |
+| Danggo | Danggo Mizu | ₹799 |
 
-- **GitHub Discussions** — [Open a Q&A discussion](https://github.com/sanidhyy/sushi-landing/discussions/new?category=q-a) for setup and troubleshooting help.
-- **Email** — [sanidhyyy@gmail.com](mailto:sanidhyyy@gmail.com)
-- **Discord** — `@sanidhyy`
+## Screenshots
 
-## :camera: Screenshots:
+### Desktop hero and navigation
 
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
+The full-width opening section establishes the visual direction with the Japanese food hero, primary actions, social proof, and animated composition.
 
-![Animated using AOS](/.github/images/img2.png "Animated using AOS")
+![Desktop hero](.github/images/screenshot-home.png)
 
-![Mobile Responsive](/.github/images/img3.png "Mobile Responsive")
+### Popular food filters
 
-## :gear: Built with
+The catalogue lets visitors switch between food categories while keeping the original animated visual language intact.
 
-[![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript "JavaScript") [![HTML](https://skillicons.dev/icons?i=html)](https://www.w3.org/html/ "HTML") [![CSS](https://skillicons.dev/icons?i=css)](https://www.w3.org/Style/CSS/Overview.en.html "CSS") [![Vite](https://skillicons.dev/icons?i=vite)](https://vitejs.dev/ "Vite")
+![Popular food filters](.github/images/screenshot-popular.png)
 
-## :wrench: Stats
+### Food details
 
-[![Stats for this App](/.github/images/stats.svg)](https://pagespeed.web.dev/ "Stats for this App")
+Selecting any catalogue card opens a focused detail view with the selected dish, rating, description, and rupee price.
 
-## :raised_hands: Contribute
+![Food details](.github/images/screenshot-details.png)
 
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+### Responsive mobile layout
 
-## Buy Me a Coffee 🍺
+The mobile view keeps the same content hierarchy, touch-friendly controls, and responsive spacing for a comfortable small-screen experience.
 
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
+![Mobile layout](.github/images/screenshot-mobile.png)
 
-## :rocket: Follow Me
+## Run Locally
 
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fx.com%2F_sanidhyy)](https://x.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fmedical-chat-app "Tweet")
+### Requirements
 
-## :star: Give A Star
+- Node.js 18 or newer
+- npm
 
-You can also give this repository a star to show more people and they can use this repository.
+### Setup
 
-## :books: Available Scripts
+```bash
+git clone https://github.com/Ishant6565/SHUSHI-RAMEN.git
+cd SHUSHI-RAMEN
+npm install
+npm run dev
+```
 
-In the project directory, you can run:
+Open the local URL printed by Vite, usually `http://localhost:5173/`.
 
-### `yarn run dev`
+## Production Build
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm run build
+npm run preview
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `yarn test`
+```text
+assets/       Images and icons used by the experience
+css/          Global styles and section-level styles
+js/           AOS setup and food catalogue interactions
+index.html    Page structure and content
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits and License
 
-### `yarn run build`
+This repository preserves the original MIT license and attribution included with the source project. See [LICENSE.md](LICENSE.md) for the applicable terms.
 
-Builds the app for production to the `dist` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Project repository: [Ishant6565/SHUSHI-RAMEN](https://github.com/Ishant6565/SHUSHI-RAMEN)

@@ -55,7 +55,7 @@
           </li>
           <li>
             <a
-              href="https://github.com/sanidhyy/sushi-landing"
+              href="https://github.com/Ishant6565/SHUSHI-RAMEN"
               target="_blank"
               title="Source Code"
               rel="noreferrer noopener"
@@ -173,30 +173,41 @@
         class="popular-foods__filters sushi__hide-scrollbar"
         data-aos="fade-up"
       >
-        <button class="popular-foods__filter-btn active">All</button>
-        <button class="popular-foods__filter-btn">
+        <button class="popular-foods__filter-btn active" data-category="all">All</button>
+        <button class="popular-foods__filter-btn" data-category="sushi">
           <img src="assets/sushi-9.png" alt="sushi" />
           Sushi
         </button>
-        <button class="popular-foods__filter-btn">
+        <button class="popular-foods__filter-btn" data-category="ramen">
           <img src="assets/sushi-8.png" alt="ramen" />
           Ramen
         </button>
-        <button class="popular-foods__filter-btn">
+        <button class="popular-foods__filter-btn" data-category="udon">
           <img src="assets/sushi-7.png" alt="udon" />
           Udon
         </button>
-        <button class="popular-foods__filter-btn">
+        <button class="popular-foods__filter-btn" data-category="danggo">
           <img src="assets/sushi-6.png" alt="danggo" />
           Danggo
         </button>
-        <button class="popular-foods__filter-btn">Others</button>
+        <button class="popular-foods__filter-btn" data-category="others">Others</button>
       </div>
 
       <!-- Popular Foods Catalogue -->
       <div class="popular-foods__catalogue" data-aos="fade-up">
         <!-- Popular Foods Card 1 -->
-        <article class="popular-foods__card">
+        <article
+          class="popular-foods__card"
+          data-category="sushi"
+          data-food-name="Chezu Sushi"
+          data-food-image="assets/sushi-12.png"
+          data-food-price="₹1,699"
+          data-food-rating="4.9"
+          data-food-description="Fresh sushi topped with creamy cheese and delicate Japanese seasoning."
+          tabindex="0"
+          role="button"
+          aria-label="View details for Chezu Sushi"
+        >
           <img
             src="assets/sushi-12.png"
             alt="chezu_sushi"
@@ -210,12 +221,23 @@
               <p>4.9</p>
             </div>
 
-            <p class="popular-foods__card-price">$19.99</p>
+            <p class="popular-foods__card-price">₹1,699</p>
           </div>
         </article>
 
         <!-- Popular Foods Card 2 -->
-        <article class="popular-foods__card active-card">
+        <article
+          class="popular-foods__card active-card"
+          data-category="sushi"
+          data-food-name="Original Sushi"
+          data-food-image="assets/sushi-11.png"
+          data-food-price="₹1,499"
+          data-food-rating="5.9"
+          data-food-description="Our signature sushi selection, prepared with premium ingredients and classic Japanese technique."
+          tabindex="0"
+          role="button"
+          aria-label="View details for Original Sushi"
+        >
           <img
             src="assets/sushi-11.png"
             alt="original_sushi"
@@ -229,12 +251,23 @@
               <p>5.9</p>
             </div>
 
-            <p class="popular-foods__card-price">$16.99</p>
+            <p class="popular-foods__card-price">₹1,499</p>
           </div>
         </article>
 
         <!-- Popular Foods Card 3 -->
-        <article class="popular-foods__card">
+        <article
+          class="popular-foods__card"
+          data-category="ramen"
+          data-food-name="Ramen Legendo"
+          data-food-image="assets/sushi-10.png"
+          data-food-price="₹1,199"
+          data-food-rating="4.7"
+          data-food-description="A comforting bowl of rich ramen with springy noodles and a deeply seasoned broth."
+          tabindex="0"
+          role="button"
+          aria-label="View details for Ramen Legendo"
+        >
           <img
             src="assets/sushi-10.png"
             alt="ramen_legendo"
@@ -248,9 +281,74 @@
               <p>4.7</p>
             </div>
 
-            <p class="popular-foods__card-price">$13.99</p>
+            <p class="popular-foods__card-price">₹1,199</p>
           </div>
         </article>
+
+        <!-- Popular Foods Card 4 -->
+        <article
+          class="popular-foods__card"
+          data-category="udon"
+          data-food-name="Udon Haru"
+          data-food-image="assets/sushi-7.png"
+          data-food-price="₹999"
+          data-food-rating="4.8"
+          data-food-description="Silky thick udon noodles served in a warm, fragrant Japanese broth."
+          tabindex="0"
+          role="button"
+          aria-label="View details for Udon Haru"
+        >
+          <img src="assets/sushi-7.png" alt="udon_haru" class="popular-foods__card-image popular-foods__card-image--sharp" />
+          <h4 class="popular-foods__card-title">Udon Haru</h4>
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.8</p>
+            </div>
+            <p class="popular-foods__card-price">₹999</p>
+          </div>
+        </article>
+
+        <!-- Popular Foods Card 5 -->
+        <article
+          class="popular-foods__card"
+          data-category="danggo"
+          data-food-name="Danggo Mizu"
+          data-food-image="assets/sushi-6.png"
+          data-food-price="₹799"
+          data-food-rating="4.6"
+          data-food-description="Soft, chewy danggo finished with a sweet Japanese glaze and toasted sesame."
+          tabindex="0"
+          role="button"
+          aria-label="View details for Danggo Mizu"
+        >
+          <img src="assets/sushi-6.png" alt="danggo_mizu" class="popular-foods__card-image popular-foods__card-image--sharp" />
+          <h4 class="popular-foods__card-title">Danggo Mizu</h4>
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.6</p>
+            </div>
+            <p class="popular-foods__card-price">₹799</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Food Details -->
+      <div class="popular-foods__details" aria-hidden="true">
+        <div class="popular-foods__details-content" role="dialog" aria-modal="true" aria-labelledby="food-details-title">
+          <button class="popular-foods__details-close" type="button" title="Close details" aria-label="Close details">&times;</button>
+          <img class="popular-foods__details-image" src="" alt="" />
+          <div class="popular-foods__details-copy">
+            <p class="sushi__subtitle">Popular Food / 人気</p>
+            <h3 class="popular-foods__details-title" id="food-details-title"></h3>
+            <p class="popular-foods__details-description"></p>
+            <div class="popular-foods__details-meta">
+              <span class="popular-foods__details-rating"></span>
+              <strong class="popular-foods__details-price"></strong>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Explore Food -->
